@@ -1,0 +1,104 @@
+.import-class .btn.import-post {
+    margin-bottom: 15px;
+}
+.import-class span {
+    padding: 5px;
+    top: -5px;
+    position: relative;
+}
+
+.has-many-controls-form.fields-group ,.has-many-controls-form.fields-group, .has-many-purchase-form.fields-group{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background: #fafafa;
+    padding: 30px 15px 15px;
+    border: 1px solid #ccc;
+    margin-bottom: 30px;
+}
+.has-many-purchase-form .form-group{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+.has-many-purchase-form .form-group .col-sm-2 {
+    width: 100%;
+    text-align: left;
+    color:#555;
+    padding-bottom: 7px;
+}
+.has-many-controls-form .form-group {
+    max-width: 50%;
+    flex: 0 0 50%;
+    margin-left: 0;
+    margin-right: 0;
+}
+.has-many-controls-form .form-group .col-sm-2{
+    width: 30%;
+}
+.has-many-controls-form .form-group:last-of-type {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.has-many-controls-form .form-group:last-of-type .col-sm-9{
+    width:65%;
+}
+.has-many-ingredients-form.fields-group {
+    display: flex;
+    flex-wrap: wrap;
+}
+.has-many-ingredients-form .form-group {
+    flex-direction: column;
+    display: flex;
+    align-self: center;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-bottom: 30px;
+    flex: 0 0 9%;
+    max-width: 9%;
+}
+.has-many-ingredients-form .form-group:nth-of-type(2) {
+    flex: 0 0 35%;
+    max-width: 35%;
+}
+.has-many-ingredients-form .form-group:nth-of-type(3),.has-many-ingredients-form .form-group:nth-of-type(5) {
+    flex: 0 0 20%;
+    max-width: 20%;
+}
+
+.has-many-ingredients-form .form-group:last-of-type {
+    flex: 0 0 7%;
+    max-width: 7%;
+}
+.has-many-ingredients-form .form-group .col-sm-2.control-label {
+    width: 100%;
+    text-align: left;
+    color:#555;
+    padding-bottom: 7px;
+}
+.has-many-ingredients-form .col-sm-8,.has-many-ingredients-form .col-sm-9{
+    width:100%
+}
+#has-many-ingredients:before {
+    font-size: 90%;
+    content: '單位代碼- 依重量百分比 %(W/W) 請填 A 依體積百分比 %(W/V) 請填 B \00000a 含量類別：適量請填 A 標誌量請填 B';
+    white-space: pre;
+    color: #777;
+    left: 15px;
+    position: relative;
+    display: block;
+    margin-bottom: 15px;
+}
+
+
+#has-many-ingredients .col-sm-9 {
+    text-align: right;
+    width: 100%;
+}
+#has-many-ingredients .add.btn{
+    margin-right: 15px;
+}
